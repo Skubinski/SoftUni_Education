@@ -1,0 +1,5 @@
+num_str = input()
+digits = list(num_str)
+digits.sort(reverse=True)
+largest_num = "".join(digits)
+print(largest_num)
